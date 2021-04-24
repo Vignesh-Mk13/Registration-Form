@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration page</title>
+    <meta name="description" content="Registration Page">
+    <meta name="author" content="Vignesh MK">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            background-image:url('https://images.unsplash.com/photo-1552261597-952b64377d6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzE2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+background-size: 100% 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container-register">
+        <div id="title">
+            <i class="material-icons laptop_windows">mood</i> Register
+        </div>
+
+        <form>
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">mail_outline</i>
+                </div>
+                <input id="email" placeholder="Enter Email" type="email" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">tag_faces</i>
+                </div>
+                <input id="username" placeholder="Enter Username" type="text" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">vpn_key</i>
+                </div>
+                <input id="password" placeholder="Enter Password" type="password" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="remember-me">
+                <input type="checkbox">
+                <span style="color:white">Terms and Conditions </span>
+            </div>
+
+            <input type="submit" value="Register" />
+        </form>
+
+        <div class="privacy">
+            <a href="#" style='color:white;'>Privacy Policy</a>
+        </div>
+
+        <div class="register">
+            Already have an account?
+            <a href="#"><button id="register-link">Log In here</button></a>
+        </div>
+    </div>
+</body>
+
+</html>
+
